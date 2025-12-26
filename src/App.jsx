@@ -2,7 +2,7 @@ export default function App() {
   const artworks = [
     {
       id: 1,
-      title: "strongest sorcerer (gojo satoru)",
+      title: "the last sun breather (tanjiro kamado)",
       price: "₹500",
       img: "/art1.jpg"
     },
@@ -14,7 +14,7 @@ export default function App() {
     },
     {
       id: 3,
-      title: "Samurai Spirit",
+      title: "strongest sorcerer (gojo saturo)",
       price: "₹500",
       img: "/art3.jpg"
     }
