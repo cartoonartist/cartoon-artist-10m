@@ -13,7 +13,7 @@ export default function App() {
       title: "Strongest Swordsman (Zoro)",
       price: "₹500",
       img: "/art2.jpg",
-      sold: true,
+      sold: false,
       desc: "A fierce portrayal of Roronoa Zoro showcasing his warrior spirit. Bold strokes and rich green tones highlight strength and determination."
     },
     {
