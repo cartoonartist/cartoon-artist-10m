@@ -5,18 +5,21 @@ export default function App() {
       title: "the last sun breather (tanjiro kamado)",
       price: "₹500",
       img: "/art1.jpg"
+      desc: "A powerful action artwork capturing Tanjiro Kamado in his fiery battle stance. The dynamic sword movement and vibrant flame effects bring energy and emotion to the piece, making it a standout anime artwork. "
     },
     {
       id: 2,
       title: "strongest swordmen (zoro)",
       price: "₹500",
       img: "/art2.jpg"
+      desc:" A fierce and determined portrayal of Roronoa Zoro, showcasing his warrior spirit and swordsmanship. The bold strokes and rich green tones add depth and strength to the artwork, ideal for One Piece fans."
     },
     {
       id: 3,
       title: "strongest sorcerer (gojo saturo)",
       price: "₹500",
       img: "/art3.jpg"
+      desc: "stylish and intense portrait of Gojo Satoru, highlighting his sharp blue eyes and cool attitude. The smooth color blending and fine detailing give this artwork a bold anime aesthetic, perfect for anime lovers and collectors"
     }
   ];
 
@@ -39,6 +42,14 @@ export default function App() {
         {artworks.map((art) => (
           <div key={art.id} style={{ border: "1px solid #ddd", borderRadius: 10 }}>
             <img src={art.img} alt={art.title} style={{ width: "100%", borderTopLeftRadius: 10, borderTopRightRadius: 10 }} />
+            <h3>{art.title}</h3>
+
+            <p style={{ fontSize: "14px", color: "#555" }}>
+            Size: A5 <br />
+            Quality: A4 sheet quality <br />
+            Finish: Laminated <br />
+            Made with: Alcohol markers, pencil colours & acrylic markers
+            </p>
             <div style={{ padding: 15 }}>
               <h3>{art.title}</h3>
               <p>{art.price}</p>
