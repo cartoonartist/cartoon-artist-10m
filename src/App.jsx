@@ -2,24 +2,27 @@ export default function App() {
   const artworks = [
     {
       id: 1,
-      title: "the last sun breather (tanjiro kamado)",
+      title: "The Last Sun Breather (Tanjiro Kamado)",
       price: "₹500",
-      img: "/art1.jpg"
-      desc: "A powerful action artwork capturing Tanjiro Kamado in his fiery battle stance. The dynamic sword movement and vibrant flame effects bring energy and emotion to the piece, making it a standout anime artwork. "
+      img: "/art1.jpg",
+      sold: false,
+      desc: "A powerful action artwork capturing Tanjiro Kamado in his fiery battle stance. Dynamic sword movement and vibrant flame effects bring intense energy to this piece."
     },
     {
       id: 2,
-      title: "strongest swordmen (zoro)",
+      title: "Strongest Swordsman (Zoro)",
       price: "₹500",
-      img: "/art2.jpg"
-      desc:" A fierce and determined portrayal of Roronoa Zoro, showcasing his warrior spirit and swordsmanship. The bold strokes and rich green tones add depth and strength to the artwork, ideal for One Piece fans."
+      img: "/art2.jpg",
+      sold: true,
+      desc: "A fierce portrayal of Roronoa Zoro showcasing his warrior spirit. Bold strokes and rich green tones highlight strength and determination."
     },
     {
       id: 3,
-      title: "strongest sorcerer (gojo saturo)",
+      title: "Strongest Sorcerer (Gojo Satoru)",
       price: "₹500",
-      img: "/art3.jpg"
-      desc: "stylish and intense portrait of Gojo Satoru, highlighting his sharp blue eyes and cool attitude. The smooth color blending and fine detailing give this artwork a bold anime aesthetic, perfect for anime lovers and collectors"
+      img: "/art3.jpg",
+      sold: false,
+      desc: "A stylish and intense portrait of Gojo Satoru. Sharp blue eyes, smooth color blending, and bold anime aesthetics make it a collector’s piece."
     }
   ];
 
@@ -38,27 +41,111 @@ export default function App() {
       </section>
 
       {/* Gallery */}
-      <section style={{ padding: 20, display: "grid", gap: 20, gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))" }}>
+      <section
+        style={{
+          padding: 20,
+          display: "grid",
+          gap: 20,
+          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))"
+        }}
+      >
         {artworks.map((art) => (
-          <div key={art.id} style={{ border: "1px solid #ddd", borderRadius: 10 }}>
-            <img src={art.img} alt={art.title} style={{ width: "100%", borderTopLeftRadius: 10, borderTopRightRadius: 10 }} />
-            <h3>{art.title}</h3>
+          <div
+            key={art.id}
+            style={{
+              border: "1px solid #ddd",
+              borderRadius: 10,
+              overflow: "hidden"
+            }}
+          >
+            {/* Image with zoom & badges */}
+            <div style={{ position: "relative", overflow: "hidden" }}>
+              <img
+                src={art.img}
+                alt={art.title}
+                style={{
+                  width: "100%",
+                  height: "300px",
+                  objectFit: "cover",
+                  transition: "transform 0.3s ease"
+                }}
+                onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
+                onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
+              />
 
-            <p style={{ fontSize: "14px", color: "#555" }}>
-            Size: A5 <br />
-            Quality: A4 sheet quality <br />
-            Finish: Laminated <br />
-            Made with: Alcohol markers, pencil colours & acrylic markers
-            </p>
+              {/* Price badge */}
+              <div
+                style={{
+                  position: "absolute",
+                  top: 10,
+                  right: 10,
+                  background: "#fff",
+                  padding: "5px 10px",
+                  borderRadius: 20,
+                  fontWeight: "bold",
+                  fontSize: 14
+                }}
+              >
+                {art.price}
+              </div>
+
+              {/* Sold out badge */}
+              {art.sold && (
+                <div
+                  style={{
+                    position: "absolute",
+                    top: 10,
+                    left: 10,
+                    background: "red",
+                    color: "#fff",
+                    padding: "5px 10px",
+                    borderRadius: 5,
+                    fontSize: 12
+                  }}
+                >
+                  SOLD OUT
+                </div>
+              )}
+            </div>
+
+            {/* Details */}
             <div style={{ padding: 15 }}>
               <h3>{art.title}</h3>
-              <p>{art.price}</p>
+
+              <p style={{ fontSize: "14px", color: "#555" }}>
+                {art.desc}
+              </p>
+
+              <p style={{ fontSize: "14px", color: "#555" }}>
+                Size: A5 <br />
+                Quality: A4 sheet quality <br />
+                Finish: Laminated <br />
+                Made with: Alcohol markers, pencil colours & acrylic markers
+              </p>
+
               <a
-                href="https://wa.me/919876614958?text=Hello%20Cartoon%20Artist%2010M,%20I%20want%20to%20buy%20this%20anime%20artwork"
+                href={
+                  art.sold
+                    ? "#"
+                    : "https://wa.me/919876614958?text=Hello%20Cartoon%20Artist%2010M,%20I%20want%20to%20buy%20this%20anime%20artwork"
+                }
                 target="_blank"
                 rel="noreferrer"
               >
-                <button style={{ width: "100%", padding: 10 }}>Buy on WhatsApp</button>
+                <button
+                  disabled={art.sold}
+                  style={{
+                    width: "100%",
+                    padding: 10,
+                    background: art.sold ? "#999" : "#000",
+                    color: "#fff",
+                    border: "none",
+                    borderRadius: 5,
+                    cursor: art.sold ? "not-allowed" : "pointer"
+                  }}
+                >
+                  {art.sold ? "Sold Out" : "Buy on WhatsApp"}
+                </button>
               </a>
             </div>
           </div>
@@ -78,14 +165,13 @@ export default function App() {
       <section style={{ padding: 40, textAlign: "center" }}>
         <h2>Contact</h2>
         <p>Email: cartoonartist10m@gmail.com</p>
-        <p>Instagram: @cartoonartist10m</p>
+        <p>Instagram: @kanishkv_456</p>
       </section>
 
       {/* Footer */}
       <footer style={{ padding: 20, textAlign: "center", background: "#eee" }}>
         © 2025 Cartoon Artist 10M
       </footer>
-
     </div>
   );
-                      }
+                    }
