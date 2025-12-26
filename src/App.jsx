@@ -2,21 +2,21 @@ export default function App() {
   const artworks = [
     {
       id: 1,
-      title: "Anime Warrior",
-      price: "₹3,000",
-      img: "https://via.placeholder.com/400x300"
+      title: "strongest sorcerer (gojo satoru)",
+      price: "₹500",
+      img: "/art1.jpg"
     },
     {
       id: 2,
-      title: "Cyber Anime Girl",
-      price: "₹4,500",
-      img: "https://via.placeholder.com/400x300"
+      title: "strongest swordmen (zoro)",
+      price: "₹500",
+      img: "/art2.jpg"
     },
     {
       id: 3,
       title: "Samurai Spirit",
-      price: "₹2,800",
-      img: "https://via.placeholder.com/400x300"
+      price: "₹500",
+      img: "/art3.jpg"
     }
   ];
 
