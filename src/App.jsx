@@ -31,7 +31,56 @@ export default function App() {
       img: "/art4.jpg",
       sold: false,
       desc: "This striking anime artwork features an intense portrait of a powerful sorcerer, illustrated with bold lines and expressive detailing. The dominant purple background enhances the dramatic mood, while the sharp eyes and flowing hair bring depth and emotion to the character. Carefully blended alcohol markers create smooth gradients and strong contrasts, highlighting the character’s strength and mysterious aura. Finished with clean outlines and vibrant colors, this piece reflects precision, creativity, and a true anime aesthetic—perfect for collectors and anime enthusiasts. "
-    }
+    },
+    {
+      id: 5,
+      title: "founding Titan eren Yeager ",
+      price: "₹500",
+      img: "/art5.jpg",
+      sold: false,
+      desc: "A dark and emotional portrait reflecting inner conflict, strength, and determination through intense expression "
+    },
+    {
+      id: 6,
+      title: "okarun",
+      price: "₹500",
+      img: "/art6.jpg",
+      sold: false,
+      desc: "A bold and dynamic artwork showcasing intensity and sharp anime aesthetics with powerful color contrasts."
+    },
+    {
+      id: 7,
+      title: " Naruto uzumaki",
+      price: "₹500",
+      img: "/art7.jpg",
+      sold: false,
+      desc: " An energetic illustration highlighting Naruto’s never-give-up spirit and iconic ninja determination. "
+    },
+    {
+      id: 8,
+      title: " king of curses ryomen Sukuna",
+      price: "₹500",
+      img: "/art8.jpg",
+      sold: false,
+      desc: "A striking and intense portrait emphasizing Sukuna’s dark power, dominance, and menacing presence. "
+    },
+    {
+      id: 9,
+      title: " future pirate king Monkey D luffy",
+      price: "₹500",
+      img: "/art9.jpg",
+      sold: false,
+      desc: "A vibrant and cheerful artwork capturing Luffy’s fearless attitude and adventurous soul."
+    },
+    {
+      id: 10,
+      title: "Hunter X Rumi",
+      price: "₹500",
+      img: "/art10.jpg",
+      sold: false,
+      desc: "A stylish anime portrait with soft tones and expressive detailing, capturing elegance and calm confidence. "
+    },
+    
   ];
 
   return (
