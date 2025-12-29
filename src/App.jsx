@@ -33,6 +33,14 @@ export default function App() {
       desc: "This striking anime artwork features an intense portrait of a powerful sorcerer, illustrated with bold lines and expressive detailing. The dominant purple background enhances the dramatic mood, while the sharp eyes and flowing hair bring depth and emotion to the character. Carefully blended alcohol markers create smooth gradients and strong contrasts, highlighting the character’s strength and mysterious aura. Finished with clean outlines and vibrant colors, this piece reflects precision, creativity, and a true anime aesthetic—perfect for collectors and anime enthusiasts. "
     },
     {
+      id: 21,
+      title: " young gojo satoru",
+      price: "₹500",
+      img: "/art21.jpg",
+      sold: false,
+      desc: "A stylish and intense portrait of young and prime Gojo Satoru. Sharp blue eyes, smooth color blending, and bold anime aesthetics make it a collector’s piece."
+    },
+    {
       id: 5,
       title: "founding Titan eren Yeager ",
       price: "₹500",
