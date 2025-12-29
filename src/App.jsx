@@ -23,6 +23,14 @@ export default function App() {
       img: "/art3.jpg",
       sold: false,
       desc: "A stylish and intense portrait of Gojo Satoru. Sharp blue eyes, smooth color blending, and bold anime aesthetics make it a collector’s piece."
+    },
+    {
+      id: 4,
+      title: "shadow monarch sung jinwoo",
+      price: "₹500",
+      img: "/art1.jpg",
+      sold: false,
+      desc: "This striking anime artwork features an intense portrait of a powerful sorcerer, illustrated with bold lines and expressive detailing. The dominant purple background enhances the dramatic mood, while the sharp eyes and flowing hair bring depth and emotion to the character. Carefully blended alcohol markers create smooth gradients and strong contrasts, highlighting the character’s strength and mysterious aura. Finished with clean outlines and vibrant colors, this piece reflects precision, creativity, and a true anime aesthetic—perfect for collectors and anime enthusiasts. "
     }
   ];
 
