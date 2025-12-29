@@ -79,7 +79,7 @@ export default function App() {
       img: "/art10.jpg",
       sold: false,
       desc: "A stylish anime portrait with soft tones and expressive detailing, capturing elegance and calm confidence. "
-    },
+    }
     
   ];
 
