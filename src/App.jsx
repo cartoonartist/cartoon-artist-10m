@@ -103,6 +103,62 @@ export default function App() {
       img: "/art13.jpg",
       sold: false,
       desc: "A stylish and intense portrait of Gojo Satoru. Sharp blue eyes, smooth color blending, and bold anime aesthetics make it a collector’s piece."
+    },
+    {
+      id: 14,
+      title: " insect hashira shinobu kocho",
+      price: "₹500",
+      img: "/art14.jpg",
+      sold: false,
+      desc: " A vibrant anime‑style portrait of Shinobu Kocho with teal hair, purple eyes, and a butterfly hair clip, set against a purple‑pink background with fluttering butterflies. The drawing uses markers and colored pencils to capture her elegant, youthful expression in a fantasy‑inspired design."
+    },
+    {
+      id: 15,
+      title: " nezuko kamado",
+      price: "₹500",
+      img: "/art15.jpg",
+      sold: false,
+      desc: "Nezuko Kamado is a character from _Demon Slayer: Kimetsu no Yaiba_. She’s a young girl turned demon who wears a pink kimono with a bamboo mouthpiece. Despite her demonic nature, she retains humanity and protects her brother, showcasing fierce loyalty and resilience in battle."
+    },
+    {
+      id: 16,
+      title: " izuku midoriya DEKU",
+      price: "₹500",
+      img: "/art16.jpg",
+      sold: false,
+      desc: "Izuku Midoriya (Deku) — a vibrant, anime‑style portrait with green‑ish hair, earnest eyes, and a determined expression. Rendered in bright markers and colored pencils, the drawing captures his signature look from _My Hero Academia_, set against a clean, blank background. "
+    },
+    {
+      id: 17,
+      title: " nezuko kamado ",
+      price: "₹500",
+      img: "/art17.jpg",
+      sold: false,
+      desc: "Nezuko Kamado is a character from _Demon Slayer: Kimetsu no Yaiba_. She’s a young girl turned demon who wears a pink kimono with a bamboo mouthpiece. Despite her demonic nature, she retains humanity and protects her brother, showcasing fierce loyalty and resilience in battle."
+    },
+    {
+      id: 18,
+      title: " momo ayase",
+      price: "₹500",
+      img: "/art18.jpg",
+      sold: false,
+      desc: " Momo Yaase from _Dandadan_ — an anime‑style portrait of a brown‑haired girl with expressive eyes, wearing a pink shirt, red bow, and blue earrings. Rendered with markers and colored pencils, the drawing focuses on her lively expression and soft color blending"
+    },
+    {
+      id: 19,
+      title: " water hashira",
+      price: "₹500",
+      img: "/art19.jpg",
+      sold: false,
+      desc: " The drawing is an anime-style illustration of *Giyu Tomioka* from _Demon Slayer_, depicted with black hair, blue eyes, a red haori, and holding a sword. The artwork uses vibrant markers and acrylics."
+    },
+    {
+      id: 20,
+      title: " okarun half yokai half human",
+      price: "₹500",
+      img: "/art20.jpg",
+      sold: false,
+      desc: "Okarun is a character from _Dandadan_ who is half‑human and half‑yokai. He has a split appearance: one side shows a human face with yellow eyes, the other side reveals his monstrous yokai form with sharp teeth and red markings. "
     }
   ];
 
