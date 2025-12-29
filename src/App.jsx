@@ -75,12 +75,35 @@ export default function App() {
     {
       id: 10,
       title: "Hunter X Rumi",
-      price: "₹500",
+      price: "₹300",
       img: "/art10.jpg",
       sold: false,
       desc: "A stylish anime portrait with soft tones and expressive detailing, capturing elegance and calm confidence. "
+    },
+    {
+      id: 11,
+      title: " first sun breathing user yorichii tsugikuni",
+      price: "₹500",
+      img: "/art11.jpg",
+      sold: false,
+      desc: "A striking portrait of Yoriichi Tsugikuni, capturing his calm yet unstoppable presence as the legendary Sun Breathing swordsman. The flowing red tones, intense gaze, and refined details reflect his unmatched strength, discipline, and timeless legacy."
+    },
+    {
+      id: 12,
+      title: " tanjiro kamado",
+      price: "₹500",
+      img: "/art12.jpg",
+      sold: false,
+      desc: "A powerful action artwork capturing Tanjiro Kamado in his fiery battle stance. Dynamic sword movement and vibrant flame effects bring intense energy to this piece. "
+    },
+    {
+      id: 13,
+      title: " honoured one gojo satoru",
+      price: "₹500",
+      img: "/art13.jpg",
+      sold: false,
+      desc: "A stylish and intense portrait of Gojo Satoru. Sharp blue eyes, smooth color blending, and bold anime aesthetics make it a collector’s piece."
     }
-    
   ];
 
   return (
