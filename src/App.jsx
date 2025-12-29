@@ -202,7 +202,7 @@ export default function App() {
               overflow: "hidden"
             }}
           >
-            {/* Image with zoom & badges */}
+            {/* Image + badges */}
             <div style={{ position: "relative", overflow: "hidden" }}>
               <img
                 src={art.img}
@@ -233,7 +233,7 @@ export default function App() {
                 {art.price}
               </div>
 
-              {/* Sold out badge */}
+              {/* Sold badge */}
               {art.sold && (
                 <div
                   style={{
@@ -256,22 +256,30 @@ export default function App() {
             <div style={{ padding: 15 }}>
               <h3>{art.title}</h3>
 
-              <p style={{ fontSize: "14px", color: "#555" }}>
+              <p style={{ fontSize: 14, color: "#555" }}>
                 {art.desc}
               </p>
 
-              <p style={{ fontSize: "14px", color: "#555" }}>
+              <p style={{ fontSize: 14, color: "#555" }}>
                 Size: A5 <br />
                 Quality: A4 sheet quality <br />
                 Finish: Laminated <br />
                 Made with: Alcohol markers, pencil colours & acrylic markers
               </p>
 
+              {/* WhatsApp Button with artwork name */}
               <a
                 href={
                   art.sold
                     ? "#"
-                    : "https://wa.me/919876614958?text=Hello%20Cartoon%20Artist%2010M,%20I%20want%20to%20buy%20this%20anime%20artwork"
+                    : `https://wa.me/919876614958?text=${encodeURIComponent(
+                        `Hello Cartoon Artist 10M,
+                        
+I want to buy this artwork:
+
+Name: ${art.title}
+Price: ${art.price}`
+                      )}`
                 }
                 target="_blank"
                 rel="noreferrer"
@@ -300,7 +308,7 @@ export default function App() {
       <section style={{ padding: 40, background: "#f9f9f9", textAlign: "center" }}>
         <h2>About Me</h2>
         <p>
-          I am Cartoon Artist 10M, creating original anime-style painted artworks
+          I am Cartoon Artist 10M, creating original anime-style artworks
           inspired by anime culture and storytelling.
         </p>
       </section>
@@ -318,4 +326,4 @@ export default function App() {
       </footer>
     </div>
   );
-                    }
+                      }
