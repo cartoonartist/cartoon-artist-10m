@@ -73,6 +73,70 @@ export default function App() {
       desc: "A striking and intense portrait emphasizing Sukuna’s dark power, dominance, and menacing presence. "
     },
     {
+      id: 51,
+      title: " sayian prince vegeta",
+      price: "₹500",
+      img: "/art51.jpg",
+      sold: false,
+      desc: "A vibrant and cheerful artwork capturing super sayian vegeta fearless attitude and sayian pride."
+    },
+    {
+      id: 49,
+      title: " strongest worrier of universe Goku",
+      price: "₹500",
+      img: "/art49.jpg",
+      sold: false,
+      desc: "A powerful illustration of Goku in a battle-ready stance. Fiery tones and sharp shadows emphasize his warrior spirit, discipline, and endless drive to surpass his limits and protect the universe. "
+    },
+    {
+      id: 53,
+      title: " tanjiro kamado",
+      price: "₹500",
+      img: "/art53.jpg",
+      sold: false,
+      desc: " A joyful portrait of Tanjiro Kamado, capturing his pure heart and unbreakable spirit. Warm colors and expressive details highlight his resilience, kindness, and determination as a demon slayer who fights to protect others."
+    },
+    {
+      id: 43,
+      title: " DEKU",
+      price: "₹500",
+      img: "/art43.jpg",
+      sold: false,
+      desc: " A thoughtful portrait of Deku, showing determination mixed with vulnerability. Soft skies and green tones highlight his growth from a timid boy into a hopeful hero driven by courage and responsibility."
+    },
+    {
+      id: 44,
+      title: " muichiro tokito",
+      price: "₹500",
+      img: "/art44.jpg",
+      sold: false,
+      desc: " A calm yet powerful depiction of Muichiro Tokito, surrounded by mist-like blues. His distant gaze and flowing hair symbolize quiet strength, focus, and the deadly precision of the Mist Hashira."
+    },
+    {
+      id: 46 ,
+      title: " luffy vs kaido",
+      price: "₹500",
+      img: "/art46.jpg",
+      sold: false,
+      desc: " An intense action scene showing Monkey D. Luffy facing Kaido’s overwhelming power. Dynamic motion, bold blues, and fierce expressions reflect the clash of wills between freedom and tyranny in this epic battle."
+    },
+    {
+      id: 39,
+      title: " king of hell zoro",
+      price: "₹500",
+      img: "/art39.jpg",
+      sold: false,
+      desc: "A focused and intense portrayal of Zoro, capturing his unwavering loyalty and strength. The green palette and sharp lines reflect his iron will, discipline, and the path of a true swordsman."
+    },
+    {
+      id: 47,
+      title: " lyffy gear 5",
+      price: "₹500",
+      img: "/art47.jpg",
+      sold: false,
+      desc: " An energetic depiction of Luffy in Gear 5, bursting with freedom and chaos. Vibrant colors and exaggerated expressions capture his limitless imagination, playful power, and god-like transformation."
+    },
+    {
       id: 9,
       title: " future pirate king Monkey D luffy",
       price: "₹500",
@@ -167,6 +231,22 @@ export default function App() {
       img: "/art20.jpg",
       sold: false,
       desc: "Okarun is a character from _Dandadan_ who is half‑human and half‑yokai. He has a split appearance: one side shows a human face with yellow eyes, the other side reveals his monstrous yokai form with sharp teeth and red markings. "
+    },
+    {
+      id: 54,
+      title: " kamado squad",
+      price: "₹500",
+      img: "/art54.jpg",
+      sold: false,
+      desc: " A lively and heartwarming illustration of the Kamado Squad, capturing their bond, humor, and shared struggles. Bright expressions and warm tones reflect friendship, courage, and hope, showcasing how unity and trust turn hardship into strength."
+    },
+    {
+      id: 45,
+      title: " aira yokai",
+      price: "₹500",
+      img: "/art45.jpg",
+      sold: false,
+      desc: " A striking depiction of Aira in her Yokai form, blending elegance with menace. Sharp details and dark tones highlight her supernatural power, fierce aura, and the haunting beauty of her transformation."
     }
   ];
 
