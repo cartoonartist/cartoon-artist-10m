@@ -204,7 +204,7 @@ export default function App() {
       id: 42,
       title: " momo ayase ",
       price: "₹500",
-      img: "/art13.jpg",
+      img: "/art42.jpg",
       sold: false,
       desc: " A bold and expressive portrayal of Momo Ayase, blending confidence with supernatural intensity. Dynamic energy and sharp details highlight her fearless personality, psychic strength, and modern charm as she stands ready to face the unknown."
     },
