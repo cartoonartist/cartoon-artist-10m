@@ -161,6 +161,94 @@ export default function App() {
       desc: "A striking portrait of Yoriichi Tsugikuni, capturing his calm yet unstoppable presence as the legendary Sun Breathing swordsman. The flowing red tones, intense gaze, and refined details reflect his unmatched strength, discipline, and timeless legacy."
     },
     {
+      id: 52,
+      title: " Goku ultra instinct ",
+      price: "₹500",
+      img: "/art52.jpg",
+      sold: false,
+      desc: "A powerful illustration of Goku in a battle-ready stance. Fiery tones and sharp shadows emphasize his warrior spirit, discipline, and endless drive to surpass his limits and protect the universe. "
+    },
+    {
+      id:  50,
+      title: " love hashira mitsuri kanroji",
+      price: "₹500",
+      img: "/art50.jpg",
+      sold: false,
+      desc: " A graceful and vibrant portrayal of Mitsuri Kanroji, combining strength with warmth. Soft pink hues and fluid lines reflect her loving nature, elegance, and the hidden power of the Love Hashira."
+    },
+    {
+      id: 48 ,
+      title: " pirate hunter zoro",
+      price: "₹500",
+      img: "/art48.jpg",
+      sold: false,
+      desc: "A focused and intense portrayal of Zoro, capturing his unwavering loyalty and strength. The green palette and sharp lines reflect his iron will, discipline, and the path of a true swordsman."
+    },
+    {
+      id: 41,
+      title: " yoichi isagi",
+      price: "₹500",
+      img: "/art41.jpg",
+      sold: false,
+      desc: "A focused and intense portrayal of Yoichi Isagi, capturing his sharp vision and competitive drive. The artwork reflects his evolving mindset, strategic brilliance, and relentless pursuit of becoming the ultimate striker. "
+    },
+    {
+      id: 40,
+      title: " gojo satoru.",
+      price: "₹500",
+      img: "/art40.jpg",
+      sold: false,
+      desc: "A stylish and intense portrait of Gojo Satoru. Sharp blue eyes, smooth color blending, and bold anime aesthetics make it a collector’s piece."
+    },
+    {
+      id: 42,
+      title: " momo ayase ",
+      price: "₹500",
+      img: "/art13.jpg",
+      sold: false,
+      desc: " A bold and expressive portrayal of Momo Ayase, blending confidence with supernatural intensity. Dynamic energy and sharp details highlight her fearless personality, psychic strength, and modern charm as she stands ready to face the unknown."
+    },
+    {
+      id: 29 ,
+      title: " inosuke hashibira ",
+      price: "₹500",
+      img: "/art29.jpg",
+      sold: false,
+      desc: "A wild and energetic depiction of Inosuke, bursting with raw power and untamed spirit. Bold strokes and dynamic motion capture his ferocity, confidence, and fearless approach to battle. "
+    },
+    {
+      id: 28,
+      title: " katsuki bakugo",
+      price: "₹500",
+      img: "/art28.jpg",
+      sold: false,
+      desc: "An explosive and intense portrayal of Katsuki Bakugo, capturing his fierce determination and volatile power. Sharp lines and fiery tones reflect his relentless drive, pride, and the raw force behind his combat style."
+    },
+    {
+      id:26 ,
+      title: " anya",
+      price: "₹300",
+      img: "/art26.jpg",
+      sold: false,
+      desc: " A cute and expressive illustration of Anya, radiating innocence and mischief. Soft colors and playful details showcase her cheerful personality, curiosity, and the charm that makes her irresistibly lovable."
+    },
+    {
+      id: 25,
+      title: " upper moon 3 akaza",
+      price: "₹300",
+      img: "/art25.jpg",
+      sold: false,
+      desc: " A menacing depiction of Akaza, embodying brutal strength and twisted honor. Bold patterns and chilling expressions highlight his martial prowess, unyielding spirit, and the deadly aura of an Upper Rank demon."
+    },
+    {
+      id: 31,
+      title: " vegeta UI",
+      price: "₹400",
+      img: "/art31.jpg",
+      sold: false,
+      desc: "A powerful depiction of Vegeta in Ultra Instinct, radiating calm fury and supreme focus. Sharp contrasts and intense energy capture his pride, discipline, and relentless evolution as he pushes beyond limits to rival the gods."
+    },
+    {
       id: 12,
       title: " tanjiro kamado",
       price: "₹500",
