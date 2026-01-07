@@ -118,7 +118,8 @@ export default function App() {
       price: "₹800",
       img: "/art46.jpg",
       sold: false,
-      desc: " An intense action scene showing Monkey D. Luffy facing Kaido’s overwhelming power. Dynamic motion, bold blues, and fierce expressions reflect the clash of wills between freedom and tyranny in this epic battle."
+      desc: " An intense action scene showing Monkey D. Luffy facing Kaido’s overwhelming power. Dynamic motion, bold blues, and fierce expressions reflect the clash of wills between freedom and tyranny in this epic battle.",
+      size: "A4"
     },
     {
       id: 39,
