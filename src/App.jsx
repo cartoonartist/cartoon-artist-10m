@@ -359,7 +359,7 @@ export default function App() {
   </p>
 </section>
       <a
-  href="https://wa.me/919876614958?text=Hi!%20I%20want%20to%20order%20a%20custom%20artwork%20🎨%0A%0A1.%20Character%20or%20Idea:%0A2.%20Anime%20Style:%0A3.%20Size%20(A4/A3/Digital):%0A4.%20Colored%20or%20Black%20%26%20White:%0A5.%20Deadline:%0A6.%20Reference%20Image%20(if%20any):%0A%0APlease%20tell%20me%20price%20and%20delivery%20time."
+  href="https://wa.me/919876614958?text=Hi!%20I%20want%20to%20order%20a%20custom%20artwork%20🎨%0A%0A1.%20Character%20or%20Idea:%0A2.%20Anime%20Style:%0A3.%20Size%20(A3/A4/Digital):%0A4.%20Colored%20or%20Black%20%26%20White:%0A5.%20deadline(optional):%0A6.%20Reference%20Image%20(if%20any):%0A%0APlease%20tell%20me%20price%20and%20delivery%20time."
   target="_blank"
   rel="noreferrer"
 >
