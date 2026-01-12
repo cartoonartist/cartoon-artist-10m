@@ -169,6 +169,14 @@ export default function App() {
       desc: "A powerful illustration of Goku in a battle-ready stance. Fiery tones and sharp shadows emphasize his warrior spirit, discipline, and endless drive to surpass his limits and protect the universe. "
     },
     {
+      id: 60,
+      title: " tanjiro modern art",
+      price: "₹400",
+      img: "/art60.jpg",
+      sold: false,
+      desc: " A fiery Tanjiro fanart capturing his determined gaze and flame-like aura. Bold reds, deep shadows, and dynamic strokes bring out his courage, strength, and unbreakable spirit as a Demon Slayer."
+    },
+    {
       id:  50,
       title: " love hashira mitsuri kanroji",
       price: "₹400",
